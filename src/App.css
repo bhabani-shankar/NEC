@@ -1,3 +1,11 @@
+body{
+  background-image: "url(" + "/layout.png" + ")";
+  background-size:cover;
+  background-position:center;
+  background: cover;
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +44,4 @@
     transform: rotate(360deg);
   }
 }
+
