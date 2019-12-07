@@ -55,25 +55,7 @@ class App extends React.Component{
     )
   }
 }
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">
-  <img
-        alt=""
-        src="/logo.png"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"/>
-  HAPPY FACES</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link eventKey={2} href="#signup">
-        Sign Up
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
+
 
 
 
